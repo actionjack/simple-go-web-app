@@ -1,5 +1,6 @@
 ---
 applications:
 - name: simple-go-web-app
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
   disk: 256M
   memory: 128M
